@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Please subscribe to our newsletter!</h1>
+    <br>
+    <p>We pinky swear not to spam you too much.</p>
+    <br>
+    <br>
+    <p>Okay, maybe a little.</p>
+    <br>
+    <br>
+    <br>
+
+    <form action="#" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Gender:</legend>
+            <label><input type="radio" name="gender" value="male" required>Male</label>
+            <label><input type="radio" name="gender" value="female" required>Female</label>
+            <label><input type="radio" name="gender" value="other" required>Other</label>
+        </fieldset>
+        <br>
+        <br>
+
+        <label for="dob">Date of birth:</label>
+        <input type="date" id="dob" name="dob">
+        <br>
+        <br>
+
+        <label><input type="checkbox" name="terms" required> I agree to the terms and conditions</label>
+        <br>
+        <br>
+        <label><input type="checkbox" name="newsletter"> Please subscribe to our newsletter</label>
+        <br>
+        <br>
+
+        <button type="submit">Register</button>
+        <br>
+        <br>
+
+        <label for="comments">Questions, comments or concerns:</label>
+        <br>
+        <textarea id="comments" name="comments" rows="4" cols="30"
+            placeholder="Please let us know how we did."> </textarea>
+        <br>
+        <br>
+
+        <label for="where">Where did you hear about us?</label>
+        <br>
+        <select name="where" id="where">
+            <option value="">Please select an option</option>
+            <option value="website">Website</option>
+            <option value="forum">Online forum</option>
+            <option value="newspaper">Newspaper</option>
+            <option value="friend">From a friend</option>
+            <option value="campus">On campus</option>
+            <option value="google">Google</option>
+        </select>
+
+    </form>
+
+</body>
+
+</html>
